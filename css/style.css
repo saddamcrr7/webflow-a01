@@ -1,0 +1,69 @@
+:root{
+    --primary-color: #4E47FF;
+}
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Typography */
+
+.primary-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+/* Common Style */
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* button style */
+
+.btn-primary{
+    padding: 12px 36px;
+    background-color: var(--primary-color);
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* header style */
+
+.header{
+    background: url(../images/Hero-bg.png);
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 700px;
+    padding: 0px 150px;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.nav-header h1 a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.header-container{
+    margin: 150px 0;
+    text-align: center;
+}
+
+.header-container h2{
+    font-size: 65px;
+}
+.header-container button{
+    margin-top: 40px;
+}
