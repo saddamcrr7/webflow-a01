@@ -1,6 +1,9 @@
 :root{
     --primary-color: #4E47FF;
 }
+body{
+    background-color: rgba(78, 71, 255, 0.01);
+}
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -23,6 +26,9 @@
 a{
     text-decoration: none;
     color: #fff;
+}
+section{
+    margin: 116px 0;
 }
 /* button style */
 
@@ -66,4 +72,64 @@ a{
 }
 .header-container button{
     margin-top: 40px;
+}
+
+/* main section style */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* action style */
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+.action-live{
+    padding: 62px 0;
+}
+.section-title, .section-description {
+    margin-bottom: 20px;
+}
+.section-title{
+    font-size: 42px;
+    color: #252432;
+}
+.section-description{
+    font-weight: 300;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    font-style: normal;
+}
+.action-image img{
+    width: 100%;
+    max-width: 403px;
+    height: 328px;
+    border-radius: 50px;
+}
+
+/* users style */
+
+.users{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 140px;
+    text-align: center;
+}
+.users .section-title{
+    font-size: 38px;
+}
+.user-stats{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-item h4{
+    color: var(--primary-color);
+    font-size: 80px;
+}
+.user-item p{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    font-size: 20px;
 }
