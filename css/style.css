@@ -2,7 +2,7 @@
     --primary-color: #4E47FF;
 }
 body{
-    background-color: rgba(78, 71, 255, 0.01);
+    background-color: rgba(214, 221, 237, 50%)
 }
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
@@ -58,7 +58,6 @@ section{
 }
 .nav-header h1 a{
     color: var(--primary-color);
-    text-decoration: none;
     font-size: 34px;
     text-transform: uppercase;
 }
@@ -84,6 +83,7 @@ main{
 .action{
     display: flex;
     justify-content: space-between;
+    background-color: #fff;
 }
 .action-live{
     padding: 62px 0;
@@ -241,6 +241,7 @@ input[type="email"], input[type="text"], textarea:focus{
 .footer{
     max-width: 1440px;
     height: 220px;
+    background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 100px 450px;
     text-align: center;
